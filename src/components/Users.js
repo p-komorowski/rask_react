@@ -29,21 +29,26 @@ const Users = () => {
     });
   }
   return [
-    <button
-      onClick={handleClick}
-      style={{ backgroundColor: 'steelblue'}}
-      className="btn"
-    >
+    <button onClick={handleClick} className="btn">
       Show Users
     </button>,
 
     <div>
       {users.map((user) => (
-        <h3>
-          {user.name} {findCompanyName(companies, user.uris.company)}
-        </h3>
+        <div className="user_item">
+          <h3> {user.name} </h3>
+          <p>
+            {' '}
+            <span className="email">Email: </span> {user.email}{' '}
+          </p>
+          <p>
+            {' '}
+            <span className="company">Company: </span>{' '}
+            {findCompanyName(companies, user.uris.company)}{' '}
+          </p>
+        </div>
       ))}
-    </div>
+    </div>,
   ];
 };
 
