@@ -6,7 +6,7 @@ function findCompanyName(companies, toFind) {
     let currentcompany = companies[i];
     if (currentcompany.uri === toFind) return currentcompany.name;
   }
-  return "don't found";
+  return "not found";
 }
 
 const Users = () => {
