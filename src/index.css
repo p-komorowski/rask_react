@@ -4,14 +4,60 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.label-log-email {
+  width: 20%;
+  height: 40%;
+  box-sizing: border-box;
+}
+
+.label-log-pass {
+  width: 40%;
+  height: 20%;
+  top: 50px;
+  box-sizing: border-box;
+}
+
+.label-reg-username {
+  width: 20%;
+  height: 40%;
+  box-sizing: border-box;
+}
+
+.label-reg-email {
+  width: 40%;
+  height: 20%;
+  top: 50px;
+  box-sizing: border-box;
+}
+
+.label-reg-role {
+  width: 40%;
+  height: 20%;
+  top: 50px;
+  box-sizing: border-box;
+}
+
+.label-reg-pass {
+  width: 40%;
+  height: 20%;
+  top: 50px;
+  box-sizing: border-box;
+}
+
+.register {
+  margin-left: 86.5%;
+}
+
 .container {
-  max-width: 50vw;
+  flex-direction: column;
+  display: flex;
+  max-width: 70vw;
   margin: 30px auto;
   overflow: auto;
-  min-height: 300px;
+  min-height: 30px;
   border: 1px solid steelblue;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .header {
@@ -22,18 +68,86 @@ body {
 }
 
 .btn {
-  display: inline;
+  width: 15%;
   background: steelblue;
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 1px;
   margin-bottom: 30px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+}
+
+.btn-log {
+  background: steelblue;
+  color: #fff;
+  border: none;
+  margin-top: 5%;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-back {
+  background: rgb(223, 8, 8);
+  color: #fff;
+  border: none;
+  margin-top: 5%;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  width: 8%;
+}
+
+.link-color {
+  color: #fff;
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-reg {
+  color: #fff;
+  background: rgb(33, 160, 2);
+  border: none;
+  margin-top: 5%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  width: 87%;
+}
+
+.btn-get {
+  background: rgb(33, 160, 2);
+  border: none;
+  margin-top: 5%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  width: 87%;
 }
 
 .btn:focus {
