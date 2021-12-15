@@ -20,6 +20,12 @@ npm start
 npm run server
 ```
 
+
+### For cookies funcionality run backend from project-sql
+
+```
+npm run start
+```
 ### To build for production
 
 ```
